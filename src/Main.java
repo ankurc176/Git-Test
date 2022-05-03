@@ -63,6 +63,7 @@ public class Main {
 		Thread thread2 = new Thread(thread3);
 		thread2.start();
 		
+<<<<<<< HEAD
 		MyInter inter6 = new MyInter() {
 			
 			@Override
@@ -78,6 +79,8 @@ public class Main {
 		
 		inter7.SayHello();
 		
+=======
+>>>>>>> main
 	}
 
 }
