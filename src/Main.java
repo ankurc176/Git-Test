@@ -63,6 +63,21 @@ public class Main {
 		Thread thread2 = new Thread(thread3);
 		thread2.start();
 		
+		MyInter inter6 = new MyInter() {
+			
+			@Override
+			public void SayHello() {
+				// TODO Auto-generated method stub
+				System.out.println("Test Message with Git Push");
+			}
+		};
+		
+		inter6.SayHello();
+		
+		MyInter inter7 = () -> System.out.println("Test Message second with Git Push");
+		
+		inter7.SayHello();
+		
 	}
 
 }
