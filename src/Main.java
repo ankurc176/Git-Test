@@ -63,7 +63,7 @@ public class Main {
 		Thread thread2 = new Thread(thread3);
 		thread2.start();
 		
-<<<<<<< HEAD
+
 		MyInter inter6 = new MyInter() {
 			
 			@Override
@@ -78,9 +78,7 @@ public class Main {
 		MyInter inter7 = () -> System.out.println("Test Message second with Git Push");
 		
 		inter7.SayHello();
-		
-=======
->>>>>>> main
+
 	}
 
 }
